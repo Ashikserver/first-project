@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>order list</h1>
+        <ol  type="1" start="3">
+            <li>fotball</li>
+            <li>tenis ball</li>
+            <li value="10">cricket</li>
+            <li>gaming</li>
+        </ol>
+        <h1>unorder list</h1>
+        <ul>
+            <li>fotball</li>
+            <li>cricket</li>
+            <li>gaming</li>
+        </ul>
+        <h1>description list</h1>
+        <dl>
+             <dt>google.</dt>
+             <dd>it is a search engine.</dd>
+             <dt>facebook</dt>
+             <dd>it is a social meadia platform. </dd>
+        </dl>
+       <!--html table -->
+       <table border>
+        <thead style="color:green">
+            <tr>
+                <th>name</th>
+                <th>days present</th>
+                <th>days absent</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ashik</td>
+                <td>15</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td> rahman </td>
+                <td>45</td>
+                <td>74</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>it is a footer</td>
+                <td>it is a footer</td>
+                <td>it is a footer</td>
+            </tr>
+        </tfoot>
+       </table>
+       <!--Html form-->
+        <h1> html form</h1>
+       <form novalidate>
+        <fieldset>
+            <legend>security</legend>
+            <div> 
+                <label for="Email-input">email</label>
+                <input id="email-input" type="email">
+            </div>
+            <br>
+            <div>
+                <label for="password-input">password</label>
+                <input id="password-input" type="password">
+            </div>
+            <br>
+            <div>
+                 <label for="remember-input">keep me logged in</label>
+                <input id="remember-input"type="checkbox">  
+            </div>
+             </fieldset>
+            <br>
+            <div>
+            <label for="">gender</label>
+            <input id="male-input "type="radio"name="gender">
+            <label for="male-input">male</label>
+            <input id="female -input" type ="radio"name ="gender">
+            <label for ="female input">female</label> 
+            </div> 
+                <br>
+                <div>
+                    <label for="">interested in:</label>
+                    <select name ="interest" id="interest">
+                        <option value="html">html</option>
+                        <option value="css">css</option>
+                        <option value="js">javascript</option>   
+                    </select>
+                </div>
+                <br>
+            <div>
+                <button type="submit ">log in</button>  
+            </div>
+       </form>
+       <!--multimedia-->
+       <img src="C:\Users\HP\Downloads\aziz-acharki-U3C79SeHa7k-unsplash.jpg"width="100%" hight="äuto">
+      <!-- <video src=""controls width="100%"poster="">
+        <source src="" type="video/mp4"
+       </video>-->
+       <!-- <audio src=""> same video</audio>-->
+       <!--details and summary element-->
+       <h1>details and summary element</h1>
+       <details>
+            <summary> shall I download this video?</summary>
+            yes, you can dowload this video using the  app.
+       </details>
+        <!--dialog element-->
+        <h1>dialog element</h1>
+        <dialog id="deal-popup" style="text-align:center;width:50%;">
+            <h1>here,this is the last discount of the year!</h1> 
+            <h2>do not miss the black friday deal</h2>
+            <p style="text-align:center;color:red">
+                the quick brown fox jumped over the lazy doog physical exercise
+                means the reguler movement of the limps of our body fit and mind sound 
+            </p>
+        </dialog>
+        <button onclick="document.getElementById('deal-popup').showModal()">see the deals</button>
+        <br>
+        <a href="google.com">google</a>
+    </body>
+</html>
